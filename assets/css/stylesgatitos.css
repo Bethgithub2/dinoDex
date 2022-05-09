@@ -5,8 +5,9 @@ html {
 
 
 .img-logodino{
-    width: 150px;
-    height: 15vh;
+
+    width: 70px;
+    height: 10vh/* 10vh */;
     object-fit: cover; /* imagen se contenga en cierto tamaño */
     object-position: center; /* posicionar imagenes */
 }
@@ -32,7 +33,7 @@ html {
 }
 
 .cuadro{
-    background-color: rgb(110, 115, 172);
+    background-color: rgba(110, 115, 172, 0.321);
     border-radius: 10px;
     padding: 20px;
     color: white;
@@ -50,4 +51,9 @@ html {
 .video-iframe{
     width: 100%;
     height: 250px;
+}
+
+.gatito{
+    width: 100px;
+    height: 15vh;
 }
